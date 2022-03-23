@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", // indica para onde os arquivos compilados indicados pela propriedade "include" serão salvos.
+        "target": "ES6", // O navegador só entende a linguagem JavaScript, desta maneira, todo código TypeScript precisa ser compilado para uma sintaxe compatível.
+        "noEmitOnError": true // irá impedir que o projeto seja compilado com erros
+    },
+    "include": [
+        "app/**/*"
+    ]
+}
